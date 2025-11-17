@@ -30,7 +30,7 @@ Nifty500-Network-Analysis/
 │   ├── corr_matrix.csv
 │   ├── metrics_theta_0.230.csv
 │   ├── metrics_by_theta_extended.csv
-│   └── plots/       ← All figures used in the report
+│   └── plots/      
 │
 ├── fetch_prices_from_csv.py
 ├── clean_returns_corr.py
@@ -51,7 +51,7 @@ You can regenerate it using the fetch script.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<nikunj-indoriya>/Nifty500-Network-Analysis.git
+git clone https://github.com/nikunj-indoriya/Nifty500-Network-Analysis.git
 cd Nifty500-Network-Analysis
 ````
 
@@ -68,9 +68,6 @@ netsci\Scripts\activate      # Windows
 ```bash
 pip install -r requirements.txt
 ```
-
-(If you want, I can generate a `requirements.txt` for you.)
-
 ---
 
 ## Usage Instructions
