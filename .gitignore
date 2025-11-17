@@ -1,0 +1,76 @@
+# -----------------------------
+# Python general ignores
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.sqlite
+*.log
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+env/
+venv/
+.netsci/
+netsci/
+.venv/
+*.env/
+*.venv/
+
+# -----------------------------
+# IDE / Editor files
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Jupyter checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Large or raw data files
+# -----------------------------
+data/prices_raw.csv
+data/failed_tickers.txt
+
+# Cache or intermediate files
+data/*.tmp
+data/*.bak
+
+# -----------------------------
+# Optional: Latex build files
+# -----------------------------
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+*.log
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# -----------------------------
+# Do NOT ignore these useful files
+# (for clarity, not part of gitignore)
+# data/corr_matrix.csv
+# data/returns.csv
+# data/prices_clean.csv
+# data/metrics_by_theta_extended.csv
+# data/metrics_theta_0.230.csv
+# data/plots/*
+# -----------------------------
