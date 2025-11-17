@@ -1,7 +1,7 @@
 # Network Science Analysis of the Indian Stock Market (NIFTY 500)
 
 This repository contains the full pipeline used in the course project for  
-**ECS414: Network Science — Theory and Applications**, IISER Bhopal.
+**ECS414: Network Science — Theory and Applications**.
 
 The project constructs and analyses a complex network of Indian stocks using
 Pearson correlation of daily log returns.  
@@ -14,7 +14,6 @@ It implements:
 - Optimal threshold selection using the consistency function \(G(\theta)\)
 - Full network metrics at optimal threshold
 - Parameter study across many values of \(\theta\)
-- Plots and report written in LaTeX
 
 ---
 
@@ -153,6 +152,6 @@ Useful for checking robustness of results.
 
 ## Contact
 
-**Author:** Nikunj Indoriya
-**Institute:** IISER Bhopal
+**Author:** Nikunj Indoriya.
+**Institute:** IISER Bhopal.
 For questions: open an issue or contact directly.
